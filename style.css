@@ -1,0 +1,497 @@
+/*
+Theme Name: ISI Inc
+Author: No One | Creative Agency
+Author URI: http://www.noonecreative.agency/
+Description: ISI Inc Theme
+Template:     Divi
+Version:      1.0.0
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+a,
+input[type=submit],
+.job-assistance-accordian {
+    transition: 0.5s ease-out !important;
+    font-family: 'Lato';
+    color: #ed1f24;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+#top-menu li {
+    padding-right: 40px;
+}
+
+#top-menu-nav>ul>li>a:hover {
+    color: #ed1f24;
+    opacity: 1;
+}
+
+a.hero-btn {
+    color: #fff;
+    background: rgba(74,74,74, 0.8);
+    padding: 8px 50px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a.hero-btn:first-child {
+    margin-right: 30px;
+}
+
+.hero-btn-section {
+    margin: 30px 0;
+}
+
+a.hero-btn:hover {
+    background: rgba(237,31,36,0.8);
+    text-decoration: none;
+}
+
+.industries-we-serve .et_pb_tab_content {
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    width: 50%;
+    padding: 50px 100px;
+}
+
+.industries-we-serve .et_pb_tab_active a {
+    border-bottom: 1px solid #fff;
+    font-weight: 900 !important;
+}
+
+.industries-we-serve .et_pb_tab {
+    padding: 0;
+}
+
+.industries-we-serve .et_pb_tabs,
+.industries-we-serve .et_pb_tabs_controls li,
+.industries-we-serve ul.et_pb_tabs_controls:after {
+    border: none;
+}
+.industries-we-serve .et_pb_tab_active {
+    background-color: transparent !important;
+}
+
+.industries-we-serve h4 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.industries-we-serve h5 {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.industries-we-serve p {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.industries-we-serve .et_pb_tab_content img {
+    padding-right: 30px;
+}
+
+.testimonial {
+    padding-bottom: 30px !important;
+    text-shadow: none;
+    color: #4a4a4a;
+}
+
+.right-testimonial {
+    text-shadow: none;
+    color: #4a4a4a;
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
+
+.left-testimonial {
+    text-align: center !important;
+    margin: 0 auto;
+    float: none;
+    width: 50%;
+    display: inline-block;
+}
+
+textarea {
+    width: 100% !important;
+    padding: 15px;
+}
+
+.wpcf7-form p:nth-child(-n+5) {
+    width: 24%;
+    float: left;
+    margin-right: 1.3333%;
+}
+
+.wpcf7 input
+ {
+    padding: 15px;
+    width: 100%;
+}
+
+.wpcf7-form p:nth-child(5) {
+    margin-right: 0;
+}
+
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder {
+    font-size: 16px;
+}
+
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    background-color: #fff !important;
+    background: url(http://isiinc.co/wp-content/uploads/2018/05/dropdown.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+input[type=submit] {
+    background-color: #4a4a4a;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #ed1f24;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    width: 25%;
+}
+
+.top-page-anchor:before {
+    content: url(/wp-content/uploads/2018/05/up-arrow.png);
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+.top-page-anchor {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-widget .widget_text {
+    float: none;
+}
+
+#main-footer .container:nth-child(2) {
+    background-color: #ed1f24 !important;
+    width: 100% !important;
+}
+
+#main-footer > div.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.textwidget.custom-html-widget {
+    padding: 1% 0;
+}
+
+#footer-widgets .footer-widget {
+    width: 100%;
+    margin: 0;
+}
+
+#footer-widgets {
+    background-color: #ed1f24 !important;
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 10%;
+}
+
+.top-page-anchor, .call, .email {
+    display: inline-block;
+}
+
+.call, .email {
+    float: right;
+}
+
+.call {
+    padding-right: 30px;
+}
+
+.email a:before {
+    content: url(/wp-content/uploads/2018/05/email-icon.png);
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.call a:before {
+    content: url(/wp-content/uploads/2018/05/phone-icon.png);
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.industries-we-serve ul.et_pb_tabs_controls {
+    background-color: #ed2025;
+    margin-left: 50% !important;
+    top: -40px;
+    position: relative;
+}
+
+.industries-we-serve .et_pb_tabs li:after {
+    content: '-';
+    color: #fff !important;
+    font-weight: 900;
+}
+
+.industries-we-serve li.et_pb_tab_3:after {
+    display: none;
+}
+
+.bottom-arrows {
+    padding-top: 100px;
+}
+
+#footer-bottom .container {
+    max-width: 100%;
+}
+
+#footer-bottom #footer-info {
+    float: none;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: right;
+}
+
+a.back-to-top {
+    text-decoration: none;
+}
+
+.right-footer-content strong {
+    text-transform: uppercase;
+}
+
+.job-assistance-accordian .et_pb_toggle_title:before {
+    font-size: 25px;
+}
+.job-assistance-accordian .et_pb_toggle_title:before {
+    color: #ed2025;
+}
+
+.et_pb_toggle_open .et_pb_toggle_title {
+    color: #fff !important;
+}
+.job-assistance-accordian.et_pb_toggle_open {
+    background-color: #4a4a4a !important;
+}
+
+.bottom-arrows {
+    padding-top: 50px;
+}
+
+.job-assistance-accordian:hover h3 {
+    color: #fff;
+}
+
+.job-assistance-accordian:hover {
+    background: #4a4a4a !important;
+}
+.job-assistance-accordian {
+    cursor: pointer;
+}
+.call-now {
+    background: #ee3324;
+    color: #fff !important;
+    padding: 4px 15px !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 2em !important;
+    box-shadow: 0.08em 0.08em 0.08em rgba(0,0,0,0.4);
+    text-shadow: none;
+    border: none !important;
+    cursor: pointer !important;
+    height: 35px;
+}
+
+@media screen and (max-width: 1320px) {
+    .industries-we-serve ul.et_pb_tabs_controls {
+        margin-left: 36% !important;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .industries-we-serve .et_pb_tabs_controls li a {
+        padding: 4px 15px 4px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .industries-we-serve ul.et_pb_tabs_controls {
+        margin-left: 40% !important;
+    }
+    .industries-we-serve .et_pb_tabs_controls li a {
+        padding: 4px 10px 4px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .industries-we-serve .et_pb_tabs_controls li a {
+        padding: 4px 30px 4px;
+    }
+
+    .industries-we-serve .et_pb_tabs_controls li:first-child a {
+        padding-left: 0;
+    }
+
+    .industries-we-serve ul.et_pb_tabs_controls {
+        margin-left: 10% !important;
+        margin-right: 10%;
+    }
+
+    .footer-widget:nth-child(n) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .industries-we-serve .et_pb_tabs_controls li a {
+        padding: 4px 15px 4px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wpcf7-form p:nth-child(-n+5) {
+        width: 49%;
+        float: left;
+        margin-right: 0;
+    }
+
+    .wpcf7-form p:nth-child(2),.wpcf7-form p:nth-child(4) {
+        margin-right: 2%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    input[type=submit]:hover {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .industries-we-serve .et_pb_tab_active {
+        background-color: transparent !important;
+        border-bottom: 1px solid #fff !important;
+    }
+
+    .industries-we-serve .et_pb_tabs li:after {
+        display: none;
+    }
+
+    .industries-we-serve .et_pb_tabs_controls li a {
+        padding-left: 0 !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .call {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 479px) {
+
+    #footer-widgets .footer-widget:nth-child(n) {
+        margin-top: 11.5% !important;
+    }
+
+    .industries-we-serve .et_pb_tab_content {
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        padding: 50px 10%;
+    }
+
+    .call, .email {
+        float: none;
+        text-align: center;
+    }
+
+    .email {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    #footer-bottom #footer-info {
+        text-align: center;
+    }
+
+    .wpcf7-form p:nth-child(-n+5) {
+        width: 100%;
+        float: left;
+        margin-right: 0;
+    }
+
+    .wpcf7-form p:nth-child(2),.wpcf7-form p:nth-child(4) {
+        margin-right: 0;
+    }
+
+    a.hero-btn:first-child {
+        margin-right: 0;
+    }
+
+    a.hero-btn {
+        color: #fff;
+        background: rgba(74,74,74, 0.8);
+        padding: 8px 30px;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    a.hero-btn:last-child {
+        color: #fff;
+        background: #ed1f24;
+        padding: 8px 30px;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        width: 100%;
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+#main-header #top-menu .call-now a {
+    color: #fff !important;
+}
