@@ -343,6 +343,14 @@ a.back-to-top {
     height: 35px;
 }
 
+a.email.icon {
+    float: left;
+}
+
+a.icon {
+    color: #fff;
+}
+
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
