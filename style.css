@@ -351,6 +351,16 @@ a.icon {
     color: #fff;
 }
 
+a.location.icon:before {
+    content: url(http://isiinc.co/wp-content/uploads/2018/08/address.png);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    padding-bottom: 30px;
+}
+
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
