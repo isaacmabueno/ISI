@@ -400,6 +400,50 @@ a.email.icon:before {
     height: 100%;
 }
 
+.small-red {
+    color: #ed1f24;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.our-mission p {
+    text-align: center;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.our-mission h3 span {
+    color: #ed1f24;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.icon-text h3, .icon-text .ndt {
+    display: inline-block;
+}
+
+.icon-text .ndt {
+    padding-right: 15px;
+    top: 10px;
+    position: relative;
+}
+
+.fifty-left {
+    width: 45%;
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.fifty-right {
+    width: 50%;
+    display: inline-block;
+}
+
+.icon-text {
+    border-bottom: 10px solid #fff;
+}
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
