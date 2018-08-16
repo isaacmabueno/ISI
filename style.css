@@ -352,13 +352,52 @@ a.icon {
 }
 
 a.location.icon:before {
-    content: url(http://isiinc.co/wp-content/uploads/2018/08/address.png);
+    content: url(/wp-content/uploads/2018/08/address.png);
     height: 40px;
-    width: 40px;
+    width: 80px;
     display: inline-block;
     position: relative;
     top: 12px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+a.phone-one.icon:before {
+    content: url(/wp-content/uploads/2018/08/phone_always.png);
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    top: 12px;
+}
+
+a.phone-two.icon:before {
+    content: url(/wp-content/uploads/2018/08/phone.png);
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    top: 12px;
+}
+
+a.email.icon:before {
+    content: url(/wp-content/uploads/2018/08/email.png);
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    top: 12px;
+}
+
+.et_pb_column .et_pb_map {
+    height: 100%;
+    max-height: 100%;
+}
+
+.et_pb_map_container {
+    height: 100%;
 }
 
 @media screen and (max-width: 1320px) {
@@ -381,6 +420,11 @@ a.location.icon:before {
 }
 
 @media screen and (max-width: 980px) {
+
+    .et_pb_map_container {
+        height: 430px;
+    }
+
     .industries-we-serve .et_pb_tabs_controls li a {
         padding: 4px 30px 4px;
     }
@@ -440,11 +484,49 @@ a.location.icon:before {
     }
 }
 @media screen and (max-width: 700px) {
+
+    a.location.icon:before {
+        content: url(/wp-content/uploads/2018/08/address.png);
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px;
+    }
+
+    a.phone-one.icon:before {
+        content: url(/wp-content/uploads/2018/08/phone_always.png);
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px;
+    }
+
     .call {
         padding-right: 0;
     }
 }
 @media screen and (max-width: 479px) {
+
+    .contact-services p {
+        text-align: center;
+        display: block;
+    }
+
+    a.phone-two.icon:before {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .call-now {
+        width: 100%;
+        height: auto;
+    }
+
+    .call-now a {
+        color: #fff !important;
+    }
 
     #footer-widgets .footer-widget:nth-child(n) {
         margin-top: 11.5% !important;
