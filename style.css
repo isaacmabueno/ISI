@@ -444,6 +444,18 @@ a.email.icon:before {
     display: inline-block;
 }
 
+.bx-wrapper .bx-prev {
+    left: -100px;
+    background: url(/wp-content/uploads/2018/08/left.png) no-repeat;
+    height: 100% !important;
+}
+
+.bx-wrapper .bx-next {
+    right: -100px;
+    background: url(/wp-content/uploads/2018/08/right.png) no-repeat;
+    height: 100% !important;
+}
+
 .icon-text .ndt {
     padding-right: 15px;
     top: 10px;
