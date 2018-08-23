@@ -476,6 +476,13 @@ a.email.icon:before {
 .icon-text {
     border-bottom: 10px solid #fff;
 }
+
+.cut-width .et_pb_row .et_pb_column {
+    width: 80% !important;
+    margin: 0 auto !important;
+    float: none;
+    text-align: center;
+}
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
@@ -496,6 +503,14 @@ a.email.icon:before {
 }
 
 @media screen and (max-width: 980px) {
+
+    .bx-wrapper .bx-next {
+        right: -50px;
+    }
+
+    .bx-wrapper .bx-prev {
+        left: -50px;
+    }
 
     .et_pb_map_container {
         height: 430px;
@@ -526,6 +541,17 @@ a.email.icon:before {
 }
 
 @media screen and (max-width: 768px) {
+    .fifty-left {
+        width: 100%;
+        display: inline-block;
+        padding-right: 0%;
+    }
+
+    .fifty-right {
+        width: 100%;
+        display: inline-block;
+    }
+
     .wpcf7-form p:nth-child(-n+5) {
         width: 49%;
         float: left;
@@ -561,6 +587,16 @@ a.email.icon:before {
 }
 @media screen and (max-width: 700px) {
 
+    .icon-text .ndt {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .services-section h3 {
+        text-align: center;
+    }
+
     a.location.icon:before {
         content: url(/wp-content/uploads/2018/08/address.png);
         display: block;
@@ -584,6 +620,14 @@ a.email.icon:before {
     }
 }
 @media screen and (max-width: 479px) {
+
+    .bx-wrapper .bx-next {
+        right: -30px;
+    }
+
+    .bx-wrapper .bx-prev {
+        left: -30px;
+    }
 
     .contact-services p {
         text-align: center;
