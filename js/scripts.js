@@ -11,5 +11,10 @@ jQuery(function ($) {
                 $('.one img').attr("src", "/wp-content/uploads/2018/05/non-desctuctive-testing-hover.png");
             }
             );
+
+            // $('#team-hover .et_pb_module').hover(function() {
+            //         $(this).css("background", "#ee3426").toggle;
+            //     }
+            // );
     });
 });

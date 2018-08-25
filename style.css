@@ -483,6 +483,18 @@ a.email.icon:before {
     float: none;
     text-align: center;
 }
+
+/* #team-hover .et_pb_toggle.et_pb_toggle_close:hover {
+    background-color: #ee3426 !important;
+} */
+
+#team-hover h4 {
+    margin-top: 30px;
+}
+
+/* #team-hover .et_pb_toggle_title:before {
+    color: #ee3426 !important;
+} */
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
