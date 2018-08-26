@@ -484,9 +484,9 @@ a.email.icon:before {
     text-align: center;
 }
 
-/* #team-hover .et_pb_toggle.et_pb_toggle_close:hover {
+#team-hover .et_pb_toggle.et_pb_toggle_close:hover {
     background-color: #ee3426 !important;
-} */
+}
 
 #team-hover h4 {
     margin-top: 30px;
@@ -495,6 +495,33 @@ a.email.icon:before {
 /* #team-hover .et_pb_toggle_title:before {
     color: #ee3426 !important;
 } */
+
+a.mail-icon:before {
+    content: url('/wp-content/uploads/2018/08/email-icon-red.png') !important;
+    margin-right: 15px;
+    top: 5px;
+    position: relative;
+}
+
+.et_pb_slide_content {
+    text-shadow: none;
+    color: #4a4a4a !important;
+}
+
+.resources-slider .et_pb_slides,
+.resources-image-slider .et_pb_slides  {
+    display: block !important;
+}
+
+.resources-slider .et_pb_slide_description {
+    padding: 2% 8% !important;
+}
+
+.resources-image-slider .et_pb_slide_description {
+    padding: 0 !important;
+}
+
+
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
