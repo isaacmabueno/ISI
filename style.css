@@ -521,7 +521,10 @@ a.mail-icon:before {
     padding: 0 !important;
 }
 
-
+.resources-image-slider .et-pb-arrow-next,
+.resources-image-slider .et-pb-slider-arrows a.et-pb-arrow-next {
+    color: #ee3426 !important;
+}
 @media screen and (max-width: 1320px) {
     .industries-we-serve ul.et_pb_tabs_controls {
         margin-left: 36% !important;
@@ -660,6 +663,22 @@ a.mail-icon:before {
 }
 @media screen and (max-width: 479px) {
 
+    .resources-slider .et_pb_slider_container_inner {
+        padding-top: 0 !important;
+        display: block !important;
+    }
+
+    .resources-slider .et_pb_column {
+        margin-bottom: 0;
+    }
+
+    .fullwidth-mobile-slider {
+        width: 100% !important;
+    }
+
+    .resources-image-slider .et-pb-controllers {
+        bottom: 18% !important;
+    }
     .bx-wrapper .bx-next {
         right: -30px;
     }
