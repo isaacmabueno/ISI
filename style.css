@@ -452,7 +452,7 @@ a.email.icon:before {
 
 .bx-wrapper .bx-next {
     right: -100px;
-    background: url(/wp-content/uploads/2018/08/right.png) no-repeat;
+    background: url(/wp-content/uploads/2018/08/right.png) no-repeat !important;
     height: 100% !important;
 }
 
@@ -546,6 +546,14 @@ a.mail-icon:before {
 
 @media screen and (max-width: 980px) {
 
+    .mobile_menu_bar:before {
+        color: #ed1f25;
+    }
+
+    .et_mobile_menu {
+        border-top: 2px solid #ed1f25;
+    }
+
     .bx-wrapper .bx-next {
         right: -50px;
     }
@@ -583,6 +591,13 @@ a.mail-icon:before {
 }
 
 @media screen and (max-width: 768px) {
+    .industries-we-serve .et_pb_tab_content {
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        padding: 50px 10%;
+    }
+
     .fifty-left {
         width: 100%;
         display: inline-block;
@@ -663,6 +678,35 @@ a.mail-icon:before {
 }
 @media screen and (max-width: 479px) {
 
+    .industries-we-serve h4 {
+        font-size: 24px;
+    }
+
+    .industries-we-serve .et_pb_tab_content img {
+        padding-right: 50px;
+    }
+
+    .cut-width .et_pb_row .et_pb_column {
+        width: 100% !important;
+    }
+
+    #team-hover {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .kiwi-logo-carousel li img {
+        width: 50%;
+    }
+
+    .bx-wrapper {
+        width: 100%;
+    }
+
+    .our-mission p {
+        width: 100%;
+    }
+
     .resources-slider .et_pb_slider_container_inner {
         padding-top: 0 !important;
         display: block !important;
@@ -679,6 +723,22 @@ a.mail-icon:before {
     .resources-image-slider .et-pb-controllers {
         bottom: 18% !important;
     }
+
+    .et_mobile_device .et-pb-arrow-next, .et_pb_slider:hover .et-pb-arrow-next {
+        right: 10px !important;
+    }
+
+    .et_mobile_device .et-pb-arrow-prev, .et_pb_slider:hover .et-pb-arrow-prev {
+        left: 10px !important;
+    }
+
+    .resources-image-slider .et_pb_row {
+        width: 100% !important;
+    }
+    .industries-we-serve .et_pb_tab_active a {
+        border-bottom: none;
+    }
+
     .bx-wrapper .bx-next {
         right: -30px;
     }
@@ -708,13 +768,6 @@ a.mail-icon:before {
 
     #footer-widgets .footer-widget:nth-child(n) {
         margin-top: 11.5% !important;
-    }
-
-    .industries-we-serve .et_pb_tab_content {
-        position: relative;
-        background: rgba(0,0,0,0.5);
-        width: 100%;
-        padding: 50px 10%;
     }
 
     .call, .email {
